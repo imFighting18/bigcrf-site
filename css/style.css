@@ -10,12 +10,21 @@
     filter: blur(2px);
 }
 
+#logo {
+    position: absolute;
+    left: 40px;
+    margin-top: 39px;
+    margin-left: 600px;
+    border-radius: 50px;
+}
+
 nav {
     background-color: #04D9D9;
     padding: 10px;
+    width: 100%;
 }
 
-nav > a{
+nav > a {
     font-family: 'Nunito', sans-serif;
     font-weight: bolder;
     text-decoration: none;
