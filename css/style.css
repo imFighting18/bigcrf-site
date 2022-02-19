@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,4 +7,24 @@
 
 #banner {
     width: 100%;
+    filter: blur(2px);
+}
+
+nav {
+    background-color: #04D9D9;
+    padding: 10px;
+}
+
+nav > a{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 60px;
+    margin-right: 100px;
+    color: #59D936;
+}
+
+a:hover {
+    color: #F2055C;
+    transition: .5s;
 }
