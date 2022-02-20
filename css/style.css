@@ -83,6 +83,13 @@ main {
     max-height: 150px;
 }
 
+.widget-discord {
+    position: relative;
+    top: -550px;
+    margin-left: 900px;
+    max-height: 300px;
+}
+
 p {
     font-family: var(--font-padrao);
     line-height: 30px;
