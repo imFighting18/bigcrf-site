@@ -43,7 +43,7 @@ picture {
 }
 
 nav {
-    background-color: var(--cor3);
+    background-image: url('../imagens/nav-background.jpg');
     width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -57,7 +57,7 @@ nav > a {
     font-weight: bolder;
     text-decoration: none;
     margin: 10px;
-    margin-right: 100px;
+    margin-right: 20px;
     color: var(--cor4);
 }
 
